@@ -1,0 +1,52 @@
+header.navbar{
+    width: 100%;
+    height: 52px;
+    background: #1B2226;
+    margin-bottom: 24px;
+    display: flex;
+}
+header .linkedin-busca{
+    display: flex;
+    align-items: center;
+    margin-left: 153px;
+}
+
+img.logo-linkedin{
+    width: 34px;
+    height: 34px;
+}
+
+.busca{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 34px;
+    background: #38434F;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-left: 8px;
+}
+
+span.material-symbols-outlined{
+    margin: 8px 11px;
+}
+
+.acessos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+#logos{
+    color: #FFFFFF;
+}
+
+.palavras-acesso{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
