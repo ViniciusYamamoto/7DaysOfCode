@@ -55,7 +55,7 @@ section.perfil{
     padding-left: 24px;
 }
 
-.nome, .habilidades, .empresa, .ensino{
+.nome, .habilidades, .empresa, .ensino, figcaption{
     color: rgba(255, 255, 255, 0.9);
     font-weight: 600;
 }
@@ -65,7 +65,7 @@ section.perfil{
     line-height: 30px;
 }
 
-.habilidades, .empresa, .ensino{
+.habilidades, .empresa, .ensino, figcaption{
     font-size: 16px;
     line-height: 20px;
 }
@@ -117,5 +117,20 @@ button.mais{
 .escola-trabalho{
     padding-top: 56px;
     padding-left: 150px;
+}
+
+.trabalho, .escola{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.trabalho img, .escola img{
+    margin-right: 10px;
+}
+
+img{
+    width: 32px;
+    height: 32px;
 }
 
