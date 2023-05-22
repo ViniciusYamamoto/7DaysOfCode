@@ -1,0 +1,79 @@
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+section.publicacoes{
+    width: 780px;
+    height: 312px;
+    background: #1B2226;
+    margin-top: 8px;
+    border-radius: 16px;
+}
+
+section h3.titulo-destaque{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.9);
+    padding: 16px 0px 0px 24px;
+}
+
+article.todas-publicacoes{
+    display: flex;
+    justify-content: space-around;
+    padding: 4px 16px 0px 16px;
+}
+
+section article div.publicacao-1{
+    width: 238px;
+    height: 236px;
+    border: 1px solid hsla(0, 0%, 100%, 0.6);
+    border-radius: 8px;
+}
+
+section article div h4.subtitulo-publicacao{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 12px 0px 0px 14px;
+}
+
+section article div p.texto-publicacao{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+    padding-left: 14px;
+}
+
+.img-publi{
+    width: 100%;
+    height: 152px;
+    object-fit: cover;
+    border: none;
+    margin-top: .4rem;
+}
+
+section article div div.reacao-comentario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3vh;
+}
+
+section article div div p.reacao, .comentario{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+section article div div p.reacao::before{
+    content: url();
+    background: url(../image/destaques/Ellipse\ 6.png) center center no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
