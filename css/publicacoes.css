@@ -59,6 +59,7 @@ section article div p.texto-publicacao{
 section article div div.reacao-comentario{
     display: flex;
     align-items: center;
+    padding: 5px;
     justify-content: space-between;
     height: 3vh;
 }
@@ -76,4 +77,5 @@ section article div div p.reacao::before{
     display: inline-block;
     width: 16px;
     height: 16px;
+    margin-right: 5px;
 }

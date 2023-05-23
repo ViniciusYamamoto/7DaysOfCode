@@ -1,0 +1,118 @@
+section.atividades {
+    width: 780px;
+    height: 371px;
+    border-radius: 16px;
+    background: #1B2226;
+    margin-top: 14px;
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+section p.atividades {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section p.seguidores {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #70B5F9;
+    margin-bottom: 13px;
+}
+
+section div.ultimas-atividades {
+    display: flex;
+    flex-direction: column;
+    border-bottom:1px solid rgba(255, 255, 255, 0.6);
+    margin-bottom: 6px;
+    /* transform: rotate(0deg); */
+}
+
+section div p.pessoa-publi {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 8px;
+}
+
+section div div.img-texto-atividades{
+    display: flex;
+}
+
+section div img.img-atividades {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    padding-right: 8px;
+    /* margin-bottom: 10px; */
+}
+
+section div div p.lorem{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+section div div.reacao-comentario-das-atividades{
+    display: flex;
+    justify-content: space-between;
+}
+
+section div div div.reacao-atividades{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+section div div div img.img-reacao-atividades{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+section div div div img.img-reacao-atividades.elipse5,
+section div div div img.img-reacao-atividades.elipse4,
+section div div div img.img-reacao-atividades.elipse6{
+    position: absolute;
+}
+
+section div div div img.img-reacao-atividades.elipse5{
+    left: 0px;
+    z-index: 0;
+}
+
+section div div div img.img-reacao-atividades.elipse6{
+    left: 7px;
+    z-index: 1;
+}
+
+section div div div img.img-reacao-atividades.elipse4{
+    left: 14px;
+    z-index: 2;
+}
+
+section div div span.reacao{
+    padding-left: 34px;
+}
+
+section div div span.reacao, .comentario {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 8px 0px;
+}
+
+section a.texto-final-atividades{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+}

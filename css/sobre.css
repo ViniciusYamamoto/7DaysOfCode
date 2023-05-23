@@ -1,0 +1,23 @@
+section.sobre{
+    width: 780px;
+    height: 134px;
+    background: #1B2226;
+    border-radius: 16px;
+    padding: 16px 24px;
+    margin-top: 8px;
+}
+
+h3.subtitulo-sobre {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section p.lorem-sobre {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
