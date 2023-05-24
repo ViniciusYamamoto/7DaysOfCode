@@ -1,0 +1,63 @@
+section.formacao {
+    width: 780px;
+    height: 127px;
+    border-radius: 16px;
+    background: #1B2226;
+    margin: 8px 0px;
+    padding: 9px 24px;
+}
+
+h3.subtitulo-formacao, .subtitulo-idiomas {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 8px;
+}
+
+section div.instituicao-ensino {
+    display: flex;
+}
+
+section div img.instituicao-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 9px;
+}
+
+section div p.instituicao-txt, .portugues, .idiomas{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section div span.nome-curso {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section div span.periodo-instituicao, .fluencia {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* IDIOMAS */
+
+section.idiomas {
+    width: 780px;
+    height: 178px;
+    background: #1B2226;
+    border-radius: 16px;
+    padding: 24px 16px;
+    margin-bottom: 61px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    margin: 12px 0px 16px 0px;
+}

@@ -16,6 +16,7 @@ h3.subtitulo-experiencias {
 
 section div.empresa-atual {
     display: flex;
+    align-items: center;
     margin-top: 8px;
 }
 
