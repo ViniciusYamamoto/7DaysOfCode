@@ -1,0 +1,86 @@
+section.experiencias {
+    width: 780px;
+    height: 358px;
+    border-radius: 16px;
+    background: #1B2226;
+    padding: 24px 16px;
+    margin-top: 8px;
+}
+
+h3.subtitulo-experiencias {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section div.empresa-atual {
+    display: flex;
+    margin-top: 8px;
+}
+
+section div img.img-empresa {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+}
+
+section div p.empresa-atual-txt, h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+section div span.periodo-atual, .duracao, .localizacao {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.elipse-reta-texto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    gap: 10px;
+}
+
+.elipse-reta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 48px;
+}
+
+.elipse-1 {
+    width: 9px;
+    height: 9px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.reta {
+    background-color: #FFFFFF99;
+    height: 44px;
+    width: 1px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+section div ul li.cargo {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 0;
+}
+
+.tipo-emprego {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.9);
+}
