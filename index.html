@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./css/perfil.css">
     <link rel="stylesheet" href="./css/reset.css">
@@ -17,53 +20,67 @@
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/experiencias.css">
     <link rel="stylesheet" href="./css/formacao-idiomas.css">
+    <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <title>7 Days of Code</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="linkedin-busca">
-                <img class="logo-linkedin" src="./image/navbar/logo-linkedin.svg" alt="Logo Linkedin">
-                <div class="busca">
-                    <span class="material-symbols-outlined">search</span>
-                    <p>Pesquisar</p>
-                </div>
+                <a href="https://www.linkedin.com/in/vinicius-yamamoto/" target="_blank">
+                    <img class="logo-linkedin" src="./image/navbar/logo-linkedin.svg" alt="Logo Linkedin">
+                </a>
+                <input type="search" name="busca" id="busca" placeholder="Pesquisar">
+
             </div>
             <div class="acessos">
                 <ul>
                     <li class="inicio">
-                        <i id="logos" class="fas fa-home"></i>
-                        <p class="palavras-acesso">Início</p> 
+                        <a href="#">
+                            <i id="logos" class="fas fa-home"></i>
+                            <p class="palavras-acesso">Início</p>
+                        </a> 
                     </li>
                 </ul>
                 <ul>
                     <li class="minha-rede">
-                        <i id="logos" class="fas fa-users"></i>
-                        <p class="palavras-acesso">Minha rede</p>
+                        <a href="#">
+                            <i id="logos" class="fas fa-users"></i>
+                            <p class="palavras-acesso">Minha rede</p>
+                        </a>
                     </li>
                 </ul>
                 <ul>
                     <li class="vagas">
-                        <i id="logos" class="fas fa-briefcase"></i>
-                        <p class="palavras-acesso">Vagas</p>
+                        <a href="#">
+                            <i id="logos" class="fas fa-briefcase"></i>
+                            <p class="palavras-acesso">Vagas</p>
+                        </a>
                     </li>
                 </ul>
                 <ul>
                     <li class="mensagens">
-                        <i id="logos" class="fas fa-comment-dots"></i>
-                        <p class="palavras-acesso">Mensagens</p>
+                        <a href="#">
+                            <i id="logos" class="fas fa-comment-dots"></i>
+                            <p class="palavras-acesso">Mensagens</p>
+                        </a>
                     </li>          
                 </ul>
                 <ul>
                     <li class="notificacoes">
-                        <i id="logos" class="fas fa-bell"></i>
-                        <p class="palavras-acesso">Notificações</p>
+                        <a href="#">
+                            <i id="logos" class="fas fa-bell"></i>
+                            <p class="palavras-acesso">Notificações</p>
+                        </a>
                     </li>
                 </ul>
                 <ul>
                     <li class="solucoes">
-                        <i id="logos" class="fab fa-medapps"></i>
-                        <p class="palavras-acesso">Soluções</p>
+                        <a href="#">
+                            <i id="logos" class="fab fa-medapps"></i>
+                            <p class="palavras-acesso">Soluções</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -83,8 +100,8 @@
                     <p class="local">Cidade, estado e país - 
                         <span class="contato">Informações de contato</span></p>
                     <p class="interacao">??? seguidores - ??? conexões</p>
-                    <button class="mensagem" type="submit">Mensagem</button>
-                    <button class="mais" type="submit">Mais</button>
+                    <a href="#" class="mensagem">Mensagem</a>
+                    <a href="#" class="mais">Mais</a>
                 </div>
                 <div class="escola-trabalho">
                     <figure class="trabalho">
@@ -109,9 +126,14 @@
                     <h4 class="subtitulo-publicacao">Publicação</h4>
                     <p class="texto-publicacao">Legenda da primeira publicaçã...</p>
                     <img class="img-publi" src="./image/destaques/publicacao-1.jpg" alt="imagem da publicação">
-                    <div class="reacao-comentario">
-                        <p class="reacao">124</p>
-                        <p class="comentario">5 comentários</p>
+                    <div class="reacao-publicacoes">
+                        <div class="reacao-publi">
+                            <img class="img-reacao-publi elipse5" src="./image/destaques/Ellipse 5.png" alt="">
+                            <img class="img-reacao-publi elipse4" src="./image/destaques/Ellipse 4.png" alt="">
+                            <img class="img-reacao-publi elipse6" src="./image/destaques/Ellipse 6.png" alt="">
+                            <span class="reacao-publi">124</span>
+                        </div>                   
+                        <p class="comentario-publi">5 comentários</p>
                     </div>
                 </div>
 
@@ -119,9 +141,14 @@
                     <h4 class="subtitulo-publicacao">Publicação</h4>
                     <p class="texto-publicacao">Legenda da primeira publicaçã...</p>
                     <img class="img-publi" src="./image/destaques/publicacao-2.jpg" alt="imagem da publicação">
-                    <div class="reacao-comentario">
-                        <p class="reacao">124</p>
-                        <p class="comentario">5 comentários</p>
+                    <div class="reacao-publicacoes">
+                        <div class="reacao-publi">
+                            <img class="img-reacao-publi elipse5" src="./image/destaques/Ellipse 5.png" alt="">
+                            <img class="img-reacao-publi elipse4" src="./image/destaques/Ellipse 4.png" alt="">
+                            <img class="img-reacao-publi elipse6" src="./image/destaques/Ellipse 6.png" alt="">
+                            <span class="reacao-publi">124</span>
+                        </div>                   
+                        <p class="comentario-publi">5 comentários</p>
                     </div>
                 </div>
 
@@ -129,9 +156,14 @@
                     <h4 class="subtitulo-publicacao">Publicação</h4>
                     <p class="texto-publicacao">Legenda da primeira publicaçã...</p>
                     <img class="img-publi" src="./image/destaques/publicacao-3.jpg" alt="imagem da publicação">
-                    <div class="reacao-comentario">
-                        <p class="reacao">124</p>
-                        <p class="comentario">5 comentários</p>
+                    <div class="reacao-publicacoes">
+                        <div class="reacao-publi">
+                            <img class="img-reacao-publi elipse5" src="./image/destaques/Ellipse 5.png" alt="">
+                            <img class="img-reacao-publi elipse4" src="./image/destaques/Ellipse 4.png" alt="">
+                            <img class="img-reacao-publi elipse6" src="./image/destaques/Ellipse 6.png" alt="">
+                            <span class="reacao-publi">124</span>
+                        </div>                   
+                        <p class="comentario-publi">5 comentários</p>
                     </div>
                 </div>
             </artivle>    
@@ -254,6 +286,91 @@
             </p>
         </section>
     </main>
+    <aside>
+        <h3 class="titulo-lateral">As pessoas também viram</h3>
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar">Enviar mensagem</a>
+        
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img1.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar">Enviar mensagem</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img2.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar">Enviar mensagem</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img3.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar">Enviar mensagem</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img4.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar">Enviar mensagem</a>
+    </aside>
+
+    <aside class="pessoas-conheca">
+        <h3 class="titulo-lateral">Pessoas que talvez você conheça</h3>
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar conectar">Conectar</a>
+        
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img1.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar conectar">Conectar</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img2.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar conectar">Conectar</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img3.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar conectar">Conectar</a>
+
+        <div class="lateral">
+            <img class="perfil-conhecido" src="./image/secao-lateral/img4.png" alt="Imagem de pessoa">
+            <p class="titulo-nome-sobrenome">Nome e sobrenome <br>
+            <span class="pessoas-perfil">Título, cargo e tecnologias. Lorem Ipsum
+                Dolor sit Amet</span></p> 
+        </div>
+        <a href="#" class="btn-enviar conectar">Conectar</a>
+    </aside>
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>

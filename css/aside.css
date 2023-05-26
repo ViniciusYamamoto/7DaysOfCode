@@ -1,0 +1,73 @@
+aside {
+    width: 320px;
+    height: 546px;
+    background: #1B2226;
+    border-radius: 16px;
+    margin-left: -32px;
+    margin-bottom: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside h3.titulo-lateral{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 16px;
+    align-self: flex-start;
+}
+
+aside div.lateral{
+    display: flex;
+    margin-bottom: 4px;
+}
+
+aside div img.perfil-conhecido {
+    width: 48px;
+    height: 48px;
+    margin-right: 6px;
+}
+
+aside div p.titulo-nome-sobrenome{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+aside div span.pessoas-perfil {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+a.btn-enviar {
+    width: 158px;
+    height: 28px;
+    margin-left: -15px;
+    padding: 7px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+a.conectar {
+    width: 99px;
+    height: 28px;
+    margin-left: -75px;
+}

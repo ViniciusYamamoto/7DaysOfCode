@@ -8,6 +8,7 @@ body{
 main{
     position: relative;
     padding: 0px 0px 0px 154px;
+    margin: 0;
 }
 
 section.perfil{
@@ -86,31 +87,42 @@ section.perfil{
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+    margin-bottom: 10px;
 }
 
-button{
-    width: 128px;
-    height: 32px;
-    border-radius: 16px;
-    margin: 5px 5px 0px 0px;
-}
-
-button.mensagem{
+a.mensagem{
+    padding: 7px 29px;
     background: #70B5F9;
-    border: none;
+    border: 1px solid #70B5F9;
+    border-radius: 16px;
     color: rgba(0, 0, 0, 0.75);
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
 }
-
-button.mais{
+a.mensagem:hover{
     border: 1px solid #70B5F9;
-    background: #1B2226;
+    background-color: transparent;
+    color:  rgba(255, 255, 255, 0.6);
+    transition: .3s;
+}
+
+a.mais{
+    padding: 7px 29px;
+    border-radius: 16px;
+    border: 1px solid #70B5F9;
+    color: #70b5f9;
+    background-color: transparent;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    color: #70b5f9;
+}
+
+a.mais:hover{
+    border: 1px solid #70B5F9;
+    background: #70B5F9;
+    color: rgba(0, 0, 0, 0.75);
+    transition: .3s;
 }
 
 .escola-trabalho{
