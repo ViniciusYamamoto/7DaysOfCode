@@ -1,6 +1,6 @@
 # 7DaysOfCode
 
-Esse desafio me proporcionou a colocar minhas habilidades em práticas sobre:
+O desafio do #7DaysOfCode da #alura me proporcionou a colocar minhas habilidades em práticas sobre:
 - Transformar um layout do Figma em código;
 - Flexbox;
 - Grid;
